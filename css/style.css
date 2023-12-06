@@ -14,7 +14,7 @@ h3{
 }
 
 p{
-    color:#d98cd9;
+    color:#747474;
 }
 
 /*header*/
@@ -98,4 +98,20 @@ nav{
     font-weight: bold; 
     bottom: 4px;
     margin-left: 450px;
+}
+
+/*services*/
+
+.services-container{
+    padding: 5rem 0;
+}
+
+.services-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-container li{
+    flex: 1 1 200px;
 }
