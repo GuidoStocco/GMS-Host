@@ -47,5 +47,19 @@ nav{
 .nav-items li{
     display: inline-block;
     text-transform: uppercase;
-    
+    margin-left: 25px;
+}
+
+.nav-items a{
+    color: #fff;
+    transition: .5s;
+}
+
+.nav-items a:hover{
+    color: #038C8C;
+}
+
+.default-btn{
+    padding: 10px 15px;
+    background-color: #038C7F;
 }
