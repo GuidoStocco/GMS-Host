@@ -142,3 +142,27 @@ nav{
 .services-container p{
     line-height: 24px;
 }
+
+/*prices and plans*/
+
+.pricing-container{
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.pricing-container h2{
+    font-size: 36px;
+}
+
+.pricing-container p{
+    font-size: 20px;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.plan
