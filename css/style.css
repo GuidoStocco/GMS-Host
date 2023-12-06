@@ -56,10 +56,18 @@ nav{
 }
 
 .nav-items a:hover{
-    color: #038C8C;
+    color: #593954;
 }
 
 .default-btn{
     padding: 10px 15px;
     background-color: #038C7F;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.default-btn:hover{
+    border-color:#013440;
+    color: #038C7F;
+    background-color: #026873;
 }
