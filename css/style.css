@@ -156,6 +156,7 @@ nav{
 
 .pricing-container p{
     font-size: 20px;
+    margin-top: 15px;
 }
 
 .plans-container{
@@ -182,12 +183,35 @@ nav{
     color: #fff;
 }
 
-.price{
-    font-weight:bold ;
+.plan .price{
+    font-weight:bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    margin: 0 auto -50px;
+    background-color: #026873;
 }
 
-.plan-name{
+.plan .plan-name{
     font-weight: bold;
     text-transform: uppercase;
-    color: #593954;
+    font-size: 20px;
+    background-color: #038C8C;
+    padding: 50px 0;
 }
+
+.plan .plan-btn{
+    background-color: #593954;
+    font-size: 20px;
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+}
+
+.plan .recommended{
+    background-color: #593954;
+}
+
