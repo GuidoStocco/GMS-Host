@@ -215,3 +215,54 @@ nav{
     background-color: #593954;
 }
 
+/*search-domain*/
+
+.searchdomain-container{ 
+    background-color: #10403B;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.searchdomain-container h2{
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+
+.searchdomain-container p{
+    color: #BFBFBF;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.searchdomain-container input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.searchdomain-container input[type="text"]{
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input[type="submit"]{
+    width: 15%;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #127369;
+    color: #fff;
+    transition: 1s;
+}
+
+.searchdomain-container input[type="submit"]:hover{
+    transform: scale(1.04);
+    color: #013440;
+    background-color: #fff;
+    border-color: #127369;
+}
+
