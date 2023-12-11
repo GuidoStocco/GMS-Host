@@ -329,5 +329,12 @@ nav{
 /*RESPONSIVIDADE*/
 
 @media (max-width: 1100px){
-    
+    .banner p{
+        position: absolute;
+    }
+
+    .container-free p{
+        bottom: 40px;
+        padding-right: 30px;
+    }
 }
