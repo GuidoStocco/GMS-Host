@@ -91,6 +91,7 @@ nav{
     font-weight: bold;
     margin-left: 180px;
     bottom: 4px;
+    transition: .5;
 }
 
 .container-pay p{
@@ -98,6 +99,14 @@ nav{
     font-weight: bold; 
     bottom: 4px;
     margin-left: 450px;
+    transition: .5;
+}
+
+.container-free p:hover{
+    color: #bf40bf;
+}
+.container-pay p:hover{
+    color:#bf40bf;
 }
 
 /*services*/
@@ -335,6 +344,15 @@ nav{
 
     .container-free p{
         bottom: 40px;
-        padding-right: 30px;
+        left: -40px;
+    }
+
+    .container-pay p{
+        bottom: 40px;
+        left: -100px;
+    }
+
+    .plan{
+        margin: 0 5px;
     }
 }
