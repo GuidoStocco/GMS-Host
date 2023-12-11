@@ -472,5 +472,14 @@ nav{
     .plan ul{
         margin-bottom: 30px;
     }
+
+    .nav-items li{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .services-container ul{
+        flex-direction: column;
+    }
 }
 
