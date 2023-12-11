@@ -392,9 +392,9 @@ nav{
 }    
 
 @media (max-width: 576px){
-    
-  
-  
+    html, body{
+        overflow-x: hidden;
+    }
   
     .plans-container{
         flex-direction: column;
@@ -425,7 +425,14 @@ nav{
     }
 
     .searchdomain-container h2{
-        padding: 0 5px;
+        padding: 0 1rem;
+    }
+
+    .searchdomain-container p{
+        font-size: 18px;
+    }
+    .searchdomain-container h2{
+        padding: 0 1rem;
     }
 
     .searchdomain-container input[type="text"]{
@@ -435,4 +442,35 @@ nav{
     .searchdomain-container input[type="submit"]{
         width: 40%;
     }
+
+    .banner{
+        padding: 160px 0;
+        position: relative;
+    }
+
+    .container-free p{
+        font-size: 10px;
+        margin-left: 119px;
+        bottom: 78px;
+    }
+
+    .container-pay p{
+        font-size: 10px;
+        margin-left: 220px;
+        bottom: 78px;
+    }
+
+    .pricing-container p{
+        font-size: 16px;
+    }
+
+    .plans-container{
+        align-items: center;
+    
+    }
+
+    .plan ul{
+        margin-bottom: 30px;
+    }
 }
+
